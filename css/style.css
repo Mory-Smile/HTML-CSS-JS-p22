@@ -1,0 +1,109 @@
+/* Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+/* Root var */
+:root {
+  /* ==== Colors ==== */
+  --body-color: #e4e9f7;
+  --sidebar-color: #fff;
+  --primary-color: rgb(202, 53, 53);
+  --primary-color-light: #f6f5ff;
+  --toggle-color: #ddd;
+  --text-color: rgb(5, 5, 5);
+}
+/* Root var End */
+/* Global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: var(--body-color);
+}
+
+p {
+  color: grey;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+/* Global End */
+
+/* Main */
+
+.section-center {
+  width: 90vw;
+  margin: 0 auto;
+  padding: 2rem 0 0.5rem;
+  max-width: 620px;
+}
+
+.q {
+  background: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem 1.5rem 0.1rem 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.q-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.q-title p {
+  color: yellowgreen;
+  font-weight: bolder;
+}
+
+.q-btn {
+  font-size: 1.5rem;
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  color: yellowgreen;
+}
+
+.q-text {
+  padding: 1rem 1.5rem 1.5rem 0;
+  border-top: 1px solid grey;
+  display: none;
+}
+
+.minus-icon {
+  display: none;
+}
+
+.show-text .q-text {
+  display: block;
+}
+
+.show-text .minus-icon {
+  display: inline;
+}
+
+.show-text .plus-icon {
+  display: none;
+}
+
+/* Main End */
+
+/* Media */
+
+/* Media End */
